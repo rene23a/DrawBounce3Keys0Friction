@@ -13,7 +13,7 @@ public class DrawLine : MonoBehaviour {
 	private bool lineJustCreated = true;
 	private bool isMousePressed;
 
-	private float lineThickness = 0.2f; // thickness of line
+	private float lineThickness = 0.1f; // thickness of line
 	private float lineLifeTime = 2f; // time in seconds until line disappears (from when it had reached its maximum length)
 	private string lineSortingLayerName = "Ball"; // same sorting layer as ball
 	private string lineShaderMaterialName = "Sprites/Default"; // just using the default sprite for the line
